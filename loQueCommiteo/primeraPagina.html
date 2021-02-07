@@ -6,22 +6,71 @@
         </head>
         <body>
             <h1>REPASANDO HTML</h1>
-            <p>
-                Este es un archivo de repaso en HTML cuya intención es de <b>aplicar todas las enseñanzas en esta materia</b>
-                ademas de aplicar una serie de conceptos y poder resumirlos, identificarlos y proximamente darles texto,
-                color, <strong>con CSS y algunas salidas y entradas de procesos con JS.</strong>
-            </p>
-            <p>
-                El proceso de la práctica de los elementos es la que me va a llevar al <i>aprendizaje total</i> y el dominio de 
-                las muchas habilidades que contiene el proceso de programador para poder trabajar a gusto en esta gran 
-                oportunidad. Aqui realizo un salto<br/>a una <span>nueva oportunidad de vida</span> y de carrera.
-            </p>
+                <p>
+                    Este es un archivo de repaso en HTML cuya intención es de <b>aplicar todas las enseñanzas en esta materia</b>
+                    ademas de aplicar una serie de conceptos y poder resumirlos, identificarlos y proximamente darles texto,
+                    color, <strong>con CSS y algunas salidas y entradas de procesos con JS.</strong>
+                </p>
+                <p>
+                    El proceso de la práctica de los elementos es la que me va a llevar al <i>aprendizaje total</i> y el dominio de 
+                    las muchas habilidades que contiene el proceso de programador para poder trabajar a gusto en esta gran 
+                    oportunidad. Aqui realizo un salto<br/>a una <span>nueva oportunidad de vida</span> y de carrera.
+                </p>
             <hr/>
             <h3>Segunda Parte</h3>
-            <blockquote>
-                Para ser un maestro en algo solo hace falta <b>PRÁCTICA, PRÁCTICA, PRÁCTICA</b>
-            </blockquote>
-            <cite>W. Clemente Stone</cite>
+                <blockquote>
+                    Para ser un maestro en algo solo hace falta <b>PRÁCTICA, PRÁCTICA, PRÁCTICA</b>
+                </blockquote>
+                <cite>W. Clemente Stone</cite>
+            <div>
+                <h4>¿Desearía obtener mas información sobre el programa</h4>
+                    <form>
+                        <p>
+                            <label for="nombreUsuario">Ingrese su Nombre</label><br/>
+                            <input type="text" placeholder="Escriba Aquí" maxlength="50" id="nombreUsuario"/>
+                            <input type="button" value="Confirmar" id="botonNombre"/>
+                        </p>
+                        <p>
+                            <label for="emailUsuario">Ingrese su Direccion de Correo Electronico<br/>
+                                <input type="email" placeholder="Email" id="emailUsuario">
+                            </label>
+                        </p>
+                        <p>
+                            <label for="contraseñaUsuario">Ingrese Su contraseña<br/>
+                                <input type="password" placeholder="Contraseña" maxlength="8" id="contraseñaUsuario"/>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="seleccionMultiple">¿En que país reside?<br/>
+                                <select id="seleccionMultiple">
+                                    <option value="caso1">Argentina</option>
+                                    <option value="caso1">México</option>
+                                    <option value="caso1">Colombia</option>
+                                    <option value="caso1">Otro</option>
+                                </select>
+                            </label>
+                        </p>
+                            <label for="generoPersona">¿Cúal es su género?<br/>
+                                <input type="radio" name="genero" id="generoPersona" value="Masculino">Hombre<br/>
+                                <input type="radio" name="genero" id="generoPersona" value="femenino">muejer<br/>
+                                <input type="radio" name="genero" id="generoPersona" value="No Responde">No Responde<br/>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="aceptacion">Acepto términos y condiciones<br/>
+                                <i>Si desea leerlos puede hacer click </i>
+                                <a target="_blank" href="https://www.whatsapp.com/legal/updates/privacy-policy/?lang=es">
+                                aquí</a><br/>
+                                <input type="checkbox" id="aceptacion" value="Acepto">Acepto
+                            </label>
+                        </p>
+                        <p>
+                            <label for="envioDatos">¿Deseo Aplicar a la propuesta?<br/>
+                                <input type="submit" id="envioDatos" value="Inscribirse">
+                            </label>
+                        </p>
+                    </form>
+            </div>
             
             <!--la intencion de este comentario es acordarme que asi se hacen los comentarios-->
         </body>
